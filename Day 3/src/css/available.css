@@ -1,0 +1,32 @@
+/* Style for the Available Boats page */
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(245, 245, 245, 0.727);
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: black;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the images */
+  img {
+    max-width: 100px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  /* Set transparent background for table cell containing image */
+  td img {
+    background-color: rgba(255, 255, 255, 0.637);
+  }
+  
