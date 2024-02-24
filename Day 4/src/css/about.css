@@ -1,0 +1,18 @@
+.abt{
+    background-color: rgba(0, 0, 0, 0.323);
+}
+.about-us-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha (fourth) value to set transparency */
+    padding-bottom: 20px;
+    padding-left: 0px;
+    border-radius: 10px;
+  }
+  
+  .about-us-content {
+    color: black;
+    }
+ .about-us-container ul li{
+    color: black;
+ }
+
+ 
