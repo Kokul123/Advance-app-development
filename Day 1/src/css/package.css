@@ -1,0 +1,59 @@
+
+.packages-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgba(245, 245, 245, 0.677);
+  }
+  
+  /* Style for the package cards */
+  .package-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the package image */
+  .package-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Style for the package details */
+  .package-details {
+    padding: 20px;
+  }
+  
+  /* Style for the package name */
+  .package-details h2 {
+    margin-top: 0;
+    color: black;
+  }
+  .package-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .package-details ul li {
+    color: black;
+  }
+  
+  
+  /* Style for the button */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
