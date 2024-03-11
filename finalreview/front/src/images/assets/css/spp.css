@@ -1,0 +1,70 @@
+.special-packages {
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+    background-color: #ffffff8a;
+    color: black;
+  }
+  
+  .special-packages h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .date-container {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .packages-container {
+    text-align: center;
+    color: black;
+  }
+  
+  .packages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .package {
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Ensure flex layout for image and details */
+    flex-direction: column; /* Align image and details vertically */
+  }
+  
+  .package img {
+    width: 100%; /* Ensure image takes full width of container */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add space below image */
+  }
+  
+  .package h3 {
+    margin-top: 0;
+  }
+  
+  .package p {
+    margin: 10px 0;
+  }
+  
+  .package button {
+    background-color: #248daaeb;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .package button:hover {
+    background-color: #0056b3;
+  }
+  

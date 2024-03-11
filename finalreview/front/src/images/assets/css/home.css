@@ -1,0 +1,285 @@
+* {
+    box-sizing:content-box;
+    margin: 0;
+    padding: 0;
+}
+.home-body{
+    /* background-image: url('//res.cloudinary.com/duhmcxwo3/image/upload/v1708415498/ali-kazal-olwmsBvJnkQ-unsplash_wvqhmo.jpg'); */
+    background-size: cover;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 200px 200px 200px 20px;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+.content1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: rgba(128, 128, 128, 0.652);
+}
+
+.sidebar div {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar div p {
+  padding: 10px 20px;
+  margin: 5px 0; /* Add margin between list items */
+}
+
+.ele1 a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.ele1 a :hover{
+  background-color: #ff9393a4;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding-top: 0;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+  }
+  .sidebar {
+    background: linear-gradient(to right, rgba(128, 128, 128, 0.696), rgba(0, 0, 0, 0.8)); /* Gradient background */
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+    top: 80px;
+    left: 0;
+    padding-top: 60px;
+    overflow-y: auto;
+    transition: background-color 0.3s ease; 
+}
+
+
+.sidebar .ele1 a:hover {
+    background-color: rgba(128, 128, 128, 0.8); 
+    color: black;
+}
+
+.content h1, .content1 p {
+    background-image: linear-gradient(to right, #1ab6b6, #1a4ab6); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content1 p {
+    font-size: 30px;
+}
+
+.top-deals {
+    margin-top: 20px; 
+  }
+  
+  .top-deals h2 {
+    text-align: center; 
+  }
+  
+  .deal-grid {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px; 
+  }
+    .deal {
+    width: 30%; 
+    border: none;
+    padding: 10px; 
+  }
+  
+  .deal img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .deal-info {
+    padding: 10px;
+  }
+  
+  .deal-info h3 {
+    margin-top: 0; 
+  }
+  
+  .deal-info button {
+    background-color: #007bff; 
+    color: black; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+  }
+  
+  .deal-info button:hover {
+    background-color: #0056b3; 
+  }
+  
+
+.top-deals {
+  margin-top: 20px; 
+}
+
+.top-deals h2 {
+  text-align: center;
+}
+
+.deal-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; 
+  background: linear-gradient(to right, #ffffff, #f0f0f0); 
+  padding: 20px; 
+  border-radius: 10px; 
+}
+
+.deal {
+  width: 30%; 
+  border: 1px solid #ccc; 
+  padding: 10px; 
+}
+
+.deal img {
+  width: 100%; 
+  height: auto; 
+}
+
+.deal-info {
+  padding: 10px; /* Add padding for spacing */
+  color: white;
+}
+
+/* Style the deal title */
+.deal-info h3 {
+  margin-top: 0; /* Remove margin on top */
+  color: white;
+  font-weight: bolder;
+}
+
+.deal-info p {
+    margin-top: 0; /* Remove margin on top */
+    color: black;
+    font-weight: bold;
+  }
+
+/* Style the deal button */
+.deal-info button {
+  background-color: #007bff; /* Blue color for button */
+  color: black; /* Text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Add padding */
+  cursor: pointer; /* Change cursor on hover */
+  margin-top: 10px; /* Add margin on top */
+}
+
+/* Change button color on hover */
+.deal-info button:hover {
+  background-color: #0056b3; /* Darker blue color */
+}
+/* Define styles for the top deals section */
+.top-deals {
+    margin-top: 25px; /* Adjust margin as needed */
+  }
+  
+  /* Style the heading for the top deals */
+  .top-deals h2 {
+    text-align: center; /* Center the heading */
+    color: black;
+  }
+  
+  /* Flex container for the grid of deals */
+ .deal-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px; /* Adjust margin-top as needed */
+    background: linear-gradient(to right, #f6f6f613, #fbf3f300);
+    padding: 20px;
+    padding-left: 100px;
+    border-radius: 10px;
+}
+
+  
+  /* Style each individual deal */
+  .deal {
+    width: 30%; /* Adjust width of each deal */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    padding: 10px; /* Add padding for spacing */
+    background: linear-gradient(to right, #f1f1f1c8, #fbf3f3b5); 
+  }
+  
+  /* Style the deal image */
+  .deal img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Style the deal info (title, description, button) */
+  .deal-info {
+    padding: 10px; 
+    color: white;
+    font-weight: 20px;
+    font-weight: bolder;
+  }
+  
+  /* Style the deal title */
+  .deal-info h3 {
+    margin-top: 0; /* Remove margin on top */
+  }
+  
+  /* Style the deal button */
+  .deal-info button {
+    background-color: #5f7f9f; /* Blue color for button */
+    color: black; /* Text color */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Add padding */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 10px; /* Add margin on top */
+  }
+  
+  /* Change button color on hover */
+  .deal-info button:hover {
+    background-color: #0056b3; /* Darker blue color */
+  }
+  .deal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+  

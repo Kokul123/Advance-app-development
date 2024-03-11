@@ -1,0 +1,57 @@
+/* feedback.css */
+
+.feedback-form-container {
+    background-color: #ffffff; /* Set your desired background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.feed {
+    color: black;
+    padding-top: 70px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+select {
+    appearance: none; /* Remove default arrow on select */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 12l-6-6H4l6 6 6-6h-1l-6 6z" fill="%23333"/><path d="M0 0h20v20H0z" fill="none"/></svg>'); /* Custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+textarea {
+    height: 100px; /* Set a fixed height for textarea */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Blue color for submit button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}

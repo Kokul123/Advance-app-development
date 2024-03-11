@@ -1,0 +1,84 @@
+
+.formm-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9a5; /* Add background color here */
+  }
+  
+  .user-tab-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .user-tab {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+  }
+  
+  .user-tab-head {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: left;
+    color: black;
+  }
+  
+  .user-tab-data {
+    padding: 10px;
+    color: black;
+  }
+  
+  .buttt {
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buttt:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-back {
+    margin-top: 20px;
+  }
+  
+  .form11 {
+    margin-top: 20px;
+  }
+  
+  .label11 {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .input11 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="button"],
+  button[type="button"] {
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  input[type="button"]:hover,
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
